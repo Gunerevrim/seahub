@@ -840,22 +840,22 @@ msgstr[1] "%(days)d gün önce"
 #, python-format
 msgid "%(hours)d hour ago"
 msgid_plural "%(hours)d hours ago"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%(hours)d saat önce"
+msgstr[1] "%(hours)d saat önce"
 
 #: seahub/base/templatetags/seahub_tags.py:212
 #, python-format
 msgid "%(minutes)d minute ago"
 msgid_plural "%(minutes)d minutes ago"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%(minutes)d dakika önce"
+msgstr[1] "%(minutes)d dakika önce"
 
 #: seahub/base/templatetags/seahub_tags.py:218
 #, python-format
 msgid "%(seconds)d second ago"
 msgid_plural "%(seconds)d seconds ago"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%(seconds)d saniye önce"
+msgstr[1] "%(seconds)d saniye önce"
 
 #: seahub/base/templatetags/seahub_tags.py:320
 #: seahub/group/templates/group/group_info.html:33
