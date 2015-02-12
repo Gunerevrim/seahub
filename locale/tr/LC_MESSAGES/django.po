@@ -833,8 +833,8 @@ msgstr "Şu anda"
 #, python-format
 msgid "%(days)d day ago"
 msgid_plural "%(days)d days ago"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%(days)d gün önce"
+msgstr[1] "%(days)d gün önce"
 
 #: seahub/base/templatetags/seahub_tags.py:205
 #, python-format
