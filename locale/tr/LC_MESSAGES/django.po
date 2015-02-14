@@ -1063,6 +1063,7 @@ msgstr "İşlemler"
 #: seahub/templates/view_file_text.html:24
 #: seahub/templates/sysadmin/sys_org_info_user.html:34
 #: seahub/templates/sysadmin/sys_useradmin_admins.html:62
+
 #: seahub/templates/sysadmin/sys_useradmin_admins.html:80
 #: seahub/templates/sysadmin/useradmin_table.html:30
 #: seahub/templates/sysadmin/useradmin_table.html:47
@@ -1477,7 +1478,8 @@ msgstr "%(email)s sizi %(site_name)s,  %(grp_name)s grubuna katılmaya davet ett
 #: seahub/group/templates/group/group_discuss.html:161
 #: seahub/group/templates/group/new_msg_reply.html:48
 msgid "Hide replies"
-msgstr "Yanıtları sakla"
+msgstr "Yanıtları gizle"
+
 
 #: seahub/group/templates/group/discussion_list.html:31
 #: seahub/group/templates/group/group_discuss.html:100
