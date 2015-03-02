@@ -359,23 +359,23 @@ msgstr "Başarısız oldu. Lütfen ağı kontrol edin."
 #: seahub/api2/templates/api2/event_details.html:40
 #, python-format
 msgid "Added %(file)s"
-msgstr "Eklendi %(file)s"
+msgstr "%(file)s Eklendi"
 
 #: seahub/api2/templates/api2/event_details.html:16
 #: seahub/api2/templates/api2/event_details.html:48
 #, python-format
 msgid "Deleted %(file)s"
-msgstr "Silindi %(file)s"
+msgstr "%(file)s Silindi"
 
 #: seahub/api2/templates/api2/event_details.html:24
 #, python-format
 msgid "Renamed or Moved %(file)s"
-msgstr "Yeniden adlandırıldı ya da taşındı %(file)s"
+msgstr "%(file)s Yeniden adlandırıldı ya da taşındı"
 
 #: seahub/api2/templates/api2/event_details.html:32
 #, python-format
 msgid "Modified %(file)s"
-msgstr "Değiştirildi %(file)s"
+msgstr "%(file)s Değiştirildi"
 
 #: seahub/api2/templates/api2/events.html:19
 msgid "No activity now or the function is not supported."
@@ -839,29 +839,29 @@ msgstr "Şu anda"
 #, python-format
 msgid "%(days)d day ago"
 msgid_plural "%(days)d days ago"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%(days)d gün önce"
+msgstr[1] "%(days)d gün önce"
 
 #: seahub/base/templatetags/seahub_tags.py:205
 #, python-format
 msgid "%(hours)d hour ago"
 msgid_plural "%(hours)d hours ago"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%(hours)d saat önce"
+msgstr[1] "%(hours)d saat önce"
 
 #: seahub/base/templatetags/seahub_tags.py:212
 #, python-format
 msgid "%(minutes)d minute ago"
 msgid_plural "%(minutes)d minutes ago"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%(minutes)d dakika önce"
+msgstr[1] "%(minutes)d dakika önce"
 
 #: seahub/base/templatetags/seahub_tags.py:218
 #, python-format
 msgid "%(seconds)d second ago"
 msgid_plural "%(seconds)d seconds ago"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%(seconds)d saniye önce"
+msgstr[1] "%(seconds)d saniye önce"
 
 #: seahub/base/templatetags/seahub_tags.py:320
 #: seahub/group/templates/group/group_info.html:33
@@ -1317,7 +1317,7 @@ msgstr[1] "Başarıyla eklendi.  %(count)s eposta gönderildi."
 
 #: seahub/group/views.py:790
 msgid "Successfully added."
-msgstr "Ekleme başarılı."
+msgstr "Eklendi."
 
 #: seahub/group/views.py:853
 #, python-format
@@ -1778,7 +1778,7 @@ msgstr "Değiştirildi"
 #: seahub/templates/file_revisions.html:26
 #: seahub/templates/repo_history.html:27
 msgid "Modifier"
-msgstr "Değiştirici"
+msgstr "Değiştiren"
 
 #: seahub/group/templates/group/group_info.html:97
 #: seahub/group/templates/group/group_info.html:99
@@ -1949,7 +1949,7 @@ msgstr "eposta"
 
 #: seahub/group/templates/group/group_manage.html:100
 msgid "Tip: the email should be already registered."
-msgstr "Tüyo: epostanın önceden kaydedilmiş olması gerekiyor."
+msgstr "İpucu: epostanın önceden kaydedilmiş olması gerekiyor."
 
 #: seahub/group/templates/group/group_manage.html:106
 msgid "Rename Group To"
@@ -2026,7 +2026,7 @@ msgstr "Wiki İndex"
 #: seahub/group/templates/group/group_wiki.html:14
 #: seahub/templates/wiki/personal_wiki.html:16
 msgid "No index now."
-msgstr "Şu anda İndex yok."
+msgstr "Şu anda index yok."
 
 #: seahub/group/templates/group/group_wiki.html:16
 #: seahub/templates/wiki/personal_wiki.html:17
@@ -2063,7 +2063,7 @@ msgstr "Wiki Oluştur"
 
 #: seahub/group/templates/group/group_wiki.html:49
 msgid "Wiki Pages"
-msgstr "Wiki Sayfalar"
+msgstr "Wiki Sayfaları"
 
 #: seahub/group/templates/group/group_wiki.html:55
 #: seahub/templates/wiki/personal_wiki.html:50
@@ -2095,7 +2095,7 @@ msgstr "Sayfalar"
 #: seahub/templates/wiki/personal_wiki.html:65
 #: seahub/templates/wiki/personal_wiki_pages.html:15
 msgid "Wiki History"
-msgstr "Wiki Geçmiş"
+msgstr "Wiki Geçmişi"
 
 #: seahub/group/templates/group/group_wiki.html:76
 #: seahub/group/templates/group/group_wiki.html:90
@@ -2173,7 +2173,7 @@ msgstr "Yeni Grup"
 #: seahub/group/templates/group/groups_right_panel.html:16
 #: seahub/templates/pubgrp.html:25
 msgid "Time: "
-msgstr "Zaman:"
+msgstr "Zaman: "
 
 #: seahub/group/templates/group/groups_right_panel.html:30
 msgid "You are not in any groups"
