@@ -1598,7 +1598,7 @@ msgstr "Dosya ya da dosyalar seç:"
 
 #: seahub/group/templates/group/group_discuss.html:33
 msgid "After login, you can post discussions and add replies."
-msgstr "Giriş yaptıktan sonra, tartışmalar postalayabilir ve yanıtlar ekleyebilirsiniz."
+msgstr "Giriş yaptıktan sonra, tartışma postalayabilir ve yanıtlar ekleyebilirsiniz."
 
 #: seahub/group/templates/group/group_discuss.html:126
 #: seahub/message/templates/message/user_msg_list.html:82
@@ -1661,7 +1661,7 @@ msgstr "Silindi"
 #: seahub/message/templates/message/user_msg_list.html:212
 #: seahub/message/templates/message/user_msg_list.html:248
 msgid "Failed to delete: "
-msgstr "Silinemedi:"
+msgstr "Silinemedi: "
 
 #: seahub/group/templates/group/group_discuss.html:292
 #: seahub/message/templates/message/user_msg_list.html:216
@@ -2155,7 +2155,7 @@ msgstr "Öneriler"
 #: seahub/group/templates/group/groups_left_panel.html:6
 msgid ""
 "After creating a group, you can add members and share libraries into it."
-msgstr "Bir grup oluşturduktan sonra, o grup içine üyeler ekleyebilir ve kütüphaneler paylaşabilirsiniz."
+msgstr "Bir grup oluşturduktan sonra, o gruba üye ekleyebilir ve kütüphaneleri paylaşabilirsiniz."
 
 #: seahub/group/templates/group/groups_left_panel.html:8
 msgid "Since you are a guest user now, you can not create groups."
@@ -2212,11 +2212,11 @@ msgstr "epostalar, ',' ile ayrılacak"
 
 #: seahub/group/templates/group/grpmember_add_form.html:12
 msgid "Tip: an invitation will be sent if the email is not registered."
-msgstr "Tüyo: eposta kayıtlı değilse, bir davetiye gönderilecek"
+msgstr "İpucu: eposta kayıtlı değilse, bir davetiye gönderilecek"
 
 #: seahub/group/templates/group/grpmember_add_form.html:14
 msgid "Tip: the emails should be already registered."
-msgstr "Tüyo: epostalar önceden kaydedilmiş olmalı."
+msgstr "İpucu: epostalar önceden kaydedilmiş olmalı."
 
 #: seahub/group/templates/group/grpmember_add_js.html:8
 msgid "Add administrators"
@@ -2259,7 +2259,7 @@ msgstr "Dosya Uzlaşmazlıkları"
 
 #: seahub/help/templates/help/help_base.html:13
 msgid "Excluding files"
-msgstr "Dosyaları Dışta Tutmak"
+msgstr "Dosyaları Senkronizasyon Dışı Tutmak"
 
 #: seahub/help/templates/help/help_base.html:15
 msgid "Web Site"
@@ -2325,7 +2325,7 @@ msgstr "Grup çalışma alanı içinde bir dosya kütüphanesi oluşturun."
 
 #: seahub/help/templates/help/help_group_share.html:12
 msgid "Share an existing personal library to the group."
-msgstr "Varolan kişisel bir dosyayı grupla paylaşın."
+msgstr "Mevcut bir kişisel  dosyayı grupla paylaşın."
 
 #: seahub/help/templates/help/help_ignore.html:8
 msgid "Excluding files/folders from syncing"
@@ -2460,24 +2460,24 @@ msgid ""
 "Seafile supports encryption of file libraries to strengthen your data "
 "security. To encrypt a file library, you need to set a password when you "
 "create a library."
-msgstr "Seafile veri güvenliğinizi güçlendirmek için kütüphane şifrelemeyi destekliyor. Bir dosya kütüphanesini şifrelemek için, kütüphaneyi oluştururken şifre belirlemeniz gerekiyor."
+msgstr "Seafile veri güvenliğinizi güçlendirmek için kütüphane şifrelemeyi destekliyor. Bir dosya kütüphanesini şifrelemek için, kütüphaneyi oluştururken şifre belirlemeniz gerekir."
 
 #: seahub/help/templates/help/help_security.html:10
 msgid "The password won't be stored on Seafile cloud platform."
-msgstr "Şifre Seafile bulut platformunda saklanmayacak."
+msgstr "Şifre Seafile bulut platformunda saklanmaz."
 
 #: seahub/help/templates/help/help_security.html:10
 msgid ""
 "So even the adminastrator of the servers cannot view your encrypted data "
 "without the password."
-msgstr "Böylece, sunucuların yöneticileri bile şifre olmadan size ait şifrelenmiş veriyi göremiyor."
+msgstr "Böylece, sunucuların yöneticileri bile şifre olmadan size ait şifrelenmiş veriyi göremez."
 
 #: seahub/help/templates/help/help_security.html:12
 msgid ""
 "To download and sync an encrypted library to your computer, you need to "
 "provide the password.  Seafile client program will download the encrypted "
 "data and decrypt it on your computer."
-msgstr "Şifrelenmiş bir kütüphaneyi bilgisayarınıza indirmek ve senkronize etmek için, şifreyi sağlamanız gerekir. Seafile istemci programı şifrelenmiş veriyi indirecek ve şifrelemeyi sizin bilgisayarınızda çözecek."
+msgstr "Şifrelenmiş bir kütüphaneyi bilgisayarınıza indirmek ve senkronize etmek için, şifreyi sağlamanız gerekir. Seafile istemci programı şifrelenmiş veriyi indirir ve şifrelemeyi sizin bilgisayarınızda çözer."
 
 #: seahub/help/templates/help/help_security.html:13
 msgid "The password can only be set when you create the library."
@@ -2500,7 +2500,7 @@ msgid ""
 "library. Your password is only stored in the server's encrypted memory. It "
 "would be cleared from the memory in an hour. After that, if you want to view"
 " the library, you'll have to enter password again."
-msgstr "Seafile sunucuları şifrelenmiş bir kütüphane için şifre saklamaz. Şifrelenmiş bir kütüphaneyi çevrimiçi görüntüleyebilmek için, şifreyi sağlamanız gerekir. Şifreniz sadece sunucunun şifrelenmiş hafızasında saklanır. 1 saat içinde hafızadan silinir. Daha sonra kütüphaneyi tekrar görüntülemek isterseniz, şifreyi tekrar girmeniz gerekir."
+msgstr "Seafile sunucuları şifrelenmiş bir kütüphane için şifre saklamaz. Şifrelenmiş bir kütüphaneyi çevrimiçi görüntüleyebilmek için, şifreyi girmeniz gerekir. Şifreniz sadece sunucunun şifrelenmiş hafızasında saklanır. 1 saat içinde hafızadan silinir. Daha sonra kütüphaneyi tekrar görüntülemek isterseniz, şifreyi tekrar girmeniz gerekir."
 
 #: seahub/message/views.py:184
 #: seahub/message/templates/message/all_msg_list.html:156
@@ -2631,7 +2631,7 @@ msgstr "%s -'de yeni bildirim"
 #: seahub/notifications/templates/notifications/notice_email.html:7
 #, python-format
 msgid "Hi, %(name)s"
-msgstr "Hi, %(name)s"
+msgstr "Selam, %(name)s"
 
 #: seahub/notifications/templates/notifications/notice_email.html:9
 #, python-format
@@ -2777,7 +2777,7 @@ msgstr "Dosyaları indirdiğiniz zaman şifreleri tarayıcınızda çözülecek.
 msgid ""
 "Tip: the latter way is more secure, but it is not supported well by all "
 "browsers. We advise you to use the latest version of Chrome or Firefox."
-msgstr "Tüyo: İkincisi daha güvenli, ama tüm tarayıcılar tarafından iyi desteklenmiyor. Size önerimiz Chrome ya da Firefox'un son sürümünü kullanmanız."
+msgstr "İpucu: İkincisi daha güvenli, ama tüm tarayıcılar tarafından iyi desteklenmiyor. Size önerimiz Chrome ya da Firefox'un son sürümünü kullanmanız."
 
 #: seahub/profile/forms.py:16
 msgid "Nickname should not include ' / '"
